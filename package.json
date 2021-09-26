@@ -1,0 +1,14 @@
+{
+  "name": "learn-fpts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bobbyechop@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.3",
+    "fp-ts": "^2.11.3"
+  },
+  "scripts": {
+    "compile": "npx ts-node"
+  }
+}
