@@ -2,13 +2,13 @@ import * as O from 'fp-ts/lib/Option'
 import * as f from 'fp-ts/lib/function'
 import {logger} from '../logger';
 
-type guestSomething<T> = (word: T) => O.Option<T>
+type guessSomething<T> = (word: T) => O.Option<T>
 
 const sayHi = (word: string): string => {
   return word
 }
 
-const matchIt: guestSomething<string> = (word: string) => {
+const matchIt: guessSomething<string> = (word: string) => {
   switch (word) {
     case 'Bob':
     case 'Echo':
